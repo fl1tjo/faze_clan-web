@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo_intro>img{
+  max-width: 80px;
+  vertical-align: middle;
+}
+
+.navbar {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  /* position: fixed; */
+  margin-top: 15px;
+}
+
+.logo_intro {
+  margin-left: 200px;
+}
+
+.logo_intro>span {
+  font-size: 30px;
+}
+
+.li1{
+  padding-right: 40px;
+}
+
+.link {
+  width: 75px;
+  height: 40px;
+  background-color: #0069d9;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_right {
+  margin-right: 200px;
+}
+
+.top {
+  min-width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  min-width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.product {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.clothes {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clothes>img {
+  background-color: #f7f7f7;
+}
+
+.span1 {
+  margin-top: 6px;
+}
+
+.info2 {
+  min-width: 100%;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.view_all {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+
+.info3 {
+  min-width: 100%;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.info4 {
+  min-width: 100%;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  margin-top: 85px;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
